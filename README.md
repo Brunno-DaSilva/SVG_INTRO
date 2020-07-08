@@ -4,7 +4,7 @@ The lecture is about SVGs
 
 1. We are going to learn what SVGs are
 2. Learn to Draw SVGs with a text editor
-   3. Understand the basic properties and behaviors of SVG
+3. Understand the basic properties and behaviors of SVG
 
 You would normally use a design tools to drawn SVGs, however,  
 It is really important to understand what the code means to effective work with it.
@@ -15,41 +15,38 @@ It is really important to understand what the code means to effective work with 
 
 There are two major systems for representing graphic information on computers:
 
-Raster Graphics: Images are represented as rectangular arrays of pixels.
+**Raster Graphics**: Images are represented as rectangular arrays of pixels.
 
 Some examples are: "JPEG, GIFs PNGs"
 
     Pros: Complex images
 
-Cons: They are Difficult to scale up and down
+    Cons: They are Difficult to scale up and down
 
-Vector Graphics: Images are represented as geometric shapes.
+**Vector Graphics**: Images are represented as geometric shapes.
 
     Pros: Can scale up and down - without loss of image quality
 
-Cons: Difficult to make ultra complex images
+    Cons: Difficult to make ultra complex images
 
     Examples of less complex shapes:
 
 Logos
 Minimal graphics ( Social Media icons, buttons, arrows)
 
-https://www.netflix.com/
-https://about.google/
-
 ### More About SVGs:
 
-    SVGs are scalable without loss of quality
+- SVGs are scalable without loss of quality
 
-    SVGs are Part of the HTML standards since late 90s
+- SVGs are Part of the HTML standards since late 90s
 
-    SVGs are written with XML tags and have attributes
+- SVGs are written with XML tags and have attributes
 
-Thus, it can be manipulated by CSS and JavaScript making it even more dynamic.
+- Thus, it can be manipulated by CSS and JavaScript making it even more dynamic.
 
-Take a look at these examples:
+#### Take a look at these examples:
 
-    SVG icons: https://www.flaticon.com/home
+SVG icons: `https://www.flaticon.com/home`
 
 SVG Animation sites:
 
@@ -70,9 +67,13 @@ Check out some SVGs in an HTML page
 
 - This is a lot of complex code! We're going to build our very own modern art project that is going to deconstruct some of the basic components of SVGs so that we can understand them and be able to use them effectively
 
-<p style="color: orange">Bonus<p> - excellent read on learning D3/Learning how to code anything. starting a project and letting the goal inform your technical needs
+**Bonus**: Excellent read on learning D3/Learning how to code anything.
+How do you learn d3.js?
 
-SVG Basics
+`https://medium.com/@enjalot/how-do-you-learn-d3-js-ccffc151419b`
+
+### SVG Basics
+
 There are some common shapes for:
 
 - Rectangle
@@ -86,13 +87,13 @@ There are some common shapes for:
 
 - Go ahead and open modern-art.html
 
-<p style="color: orange">Note<p>: `<g> = Group`
+**Note**:
+
+    `<g> = Group`
 
 <details><summary>Final Outcome</summary>
 
 ## ![modern art](https://i.imgur.com/NMmUYLZ.png)
-
----
 
 ### SVG:
 
