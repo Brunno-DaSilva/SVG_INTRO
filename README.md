@@ -95,7 +95,7 @@ There are some common shapes for:
 
 ## ![modern art](https://i.imgur.com/NMmUYLZ.png)
 
-<details>
+</details>
 
 ### SVG:
 
