@@ -83,13 +83,12 @@ There are some common shapes for:
 - Ellipse \*
 - Path - more complicated shapes - like triangles or outlines of countries/states \*
   \* We will not cover these today
+
   We're going to learn about SVG and these shapes, but using an investigational approach.
 
 - Go ahead and open modern-art.html
 
-**Note**:
-
-    `<g> = Group`
+**Note**: This is called a group `<g>` and it is pretty common when dealing with SVGs
 
 <details><summary>Final Outcome</summary>
 
@@ -247,6 +246,8 @@ When styling SVG we use attribute:
 
 </details>
 
+---
+
 ### Lines:
 
 1. Let's add two lines on top of our rectangles
@@ -308,7 +309,7 @@ Also, their coordinates are set by the center of the triangle which is represent
 
 ---
 
-### TEXT
+### Text
 
 1. The text element is not self closing.
 2. The text style is inherited from the html document/css
@@ -325,3 +326,40 @@ Also, their coordinates are set by the center of the triangle which is represent
     stroke="indigo"
     opacity=".5">My Art</text>
 ```
+
+<details><summary>Final Code</summary>
+
+```
+<svg
+    style="border:1px solid #333; margin-left:100px;"
+    width="500px"
+    height="500px">
+
+    <rect width="200" height="200" fill="hotpink"  opacity="0.5"/>
+
+    <rect width="200" height="200" fill="gold" x="100" y="100" stroke="darkorange" stroke-width="50" opacity="0.9" transform="rotate(45,175,275)"/>
+
+    <rect width="200" height="200" fill="lightsalmon" x="-100" y="-100" />
+
+    <line x1="0" x2="500"  y1="0" y2="500" stroke="silver"/>
+
+    <line x1="500" x2="0"  y1="0" y2="500" stroke="#111"
+   stroke-width="5"
+   opacity=".5" />
+
+    <circle cx="250" cy="250" r="25" fill="RGBA(255, 218, 185, .1)" stroke="RGBA(219, 112, 147, .5)" stroke-width="10"/>
+
+    <text
+        x="300" y="400"
+        text-anchor="middle"
+        transform="rotate(15)"
+        font-size="50"
+        stroke="indigo"
+        opacity=".5">
+      My Art
+    </text>
+
+</svg>
+```
+
+</details>
