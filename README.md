@@ -220,6 +220,33 @@ When styling SVG we use attribute:
 
 ## ![modern art](https://i.imgur.com/NMmUYLZ.png)
 
+</details>
+
+<details><summary>Code so far</summary>
+
+```
+<svg
+    style="border:1px solid #333; margin-left:100px;"
+    width="500px"
+    height="500px">
+
+    <rect width="200" height="200" fill="hotpink"  opacity="0.5"/>
+
+    <rect width="200" height="200" fill="gold" x="100" y="100" stroke="darkorange" stroke-width="50" opacity="0.9" transform="rotate(45,175,275)"/>
+
+    <rect width="200" height="200" fill="lightsalmon" x="-100" y="-100" />
+
+    <line x1="0" x2="500"  y1="0" y2="500" stroke="silver"/>
+
+    <line x1="500" x2="0"  y1="0" y2="500" stroke="#111"
+   stroke-width="5"
+   opacity=".5" />
+
+</svg>
+```
+
+</details>
+
 ### Lines:
 
 1. Let's add two lines on top of our rectangles
