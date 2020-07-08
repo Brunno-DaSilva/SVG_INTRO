@@ -96,8 +96,11 @@ There are some common shapes for:
 
 ### SVG:
 
-    1. The first thing to do is to add an svg element. Below the <h1> tag - Add <svg></svg>
-    2. Open modern-art.html in your web browser
+1. The first thing to do is to add an svg element. Below the <h1> tag - Add
+
+`<svg></svg>`
+
+2. Open modern-art.html in your web browser
 
 `Where is the svg? Open Chrome Developer tools ⌘ ⌥ I`
 
